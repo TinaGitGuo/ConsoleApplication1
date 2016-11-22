@@ -1,0 +1,18 @@
+﻿{"properties": 
+             [
+                 {  "propertyType": "resRef", 
+                     "values": 
+                     [  "resource:e40a23ded53bbaeca77cf50ffa63a47f" ]
+                 }, 
+                 {  "propertyType": "attrib", 
+                     "values": 
+                     [   { "Region": "urn:cms:resource:25d97bf2f0504be3b5bece38fbbf4d17", 
+                             "Subscription": "urn:cms:resource:202b51d31eaa43eeb9d95686487b6350" }  ]
+                 }, 
+                 {  "propertyType": "reseRef", 
+                     "values": [ "resource:0c968559c7d54cbaaacdcb0dec430156", 
+                         "resource:4986238930d344a2a6912df93327cdc0", 
+                         "resource:5a188e216a274ebc84afcefa2eda54bb"      ]
+                 }
+             ]
+ } 

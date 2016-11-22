@@ -1,0 +1,14 @@
+﻿<Root Attr="root" xmlns:test="http://www.test.com/xades#">
+  <Child1 Cttribute="c3" Attribute1="c1" Bttribute="c2">
+    <child11 Attribute11="c11">Element11</child11>
+  </Child1>
+  <Child2 Attribute2="c2">
+    <child21 Attribute21="c21">Element21</child21>
+    <child22 Attribute22="c22">Element22</child22>
+  </Child2>
+  <Child3 Attribute3="c3">
+    <child31 Attribute32="c31">
+      <child311 Attribute311="c311">Element311</child311>
+    </child31>
+  </Child3>
+</Root>

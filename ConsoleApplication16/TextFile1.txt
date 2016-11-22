@@ -1,0 +1,22 @@
+﻿{
+"updateSRReq": {
+"incidentID": "",
+"createdBy": "037022000042048",
+"description": "037022000042048",
+"isVisibleToCustomer": "3",
+"updateType": "2",
+"activityType": "2",
+"createdOn": "2016-09-08 17:57",
+"lastUpdate": "2016-09-08 17:57",
+"status": "2",
+"closedTime": ""
+},
+"subHeader": {
+"value": {
+"requestUUID": "123",
+"ServiceRequestId": "AE.MAPS.UDK.SSTP",
+"ServiceRequestVersion": "1.0",
+"ChannelId": "MAPS"
+}
+}
+ }

@@ -1,0 +1,49 @@
+﻿<html>
+<head>
+
+    <script  >
+        var i = 1;
+        function InsertHTML() {
+            //var selected = select.selectedIndex;
+            //var where = select.options[selected].value;
+
+            var relTo = document.getElementById("relTo");         
+         
+            if (i == 1) {
+                //method 1:shift + space and type in the space
+                var htmlToInsert = "method 1:The　　　　　　　　　" + i++ + " time</br>";
+            }
+            else{
+                var htmlToInsert = "method 2:The          " + i++ + " time</br>";
+                htmlToInsert = htmlToInsert.replace(/\s/g, "&nbsp;")
+            }
+            //htmlToInsert = htmlToInsert.replace('&#32;', "&nbsp;")
+            //var htmlToInsert = '<option value="' + i + '">' + a + '</option>';
+
+
+
+            if (relTo.insertAdjacentHTML) {        // Internet Explorer, Opera, Google Chrome and Safari
+                relTo.insertAdjacentHTML("afterEnd", htmlToInsert);
+            }
+            else {
+                alert("Your browser does not support the insertAdjacentHTML method!");
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div id="relTo" style="width:300px; background:#e0d0a0;">
+        The destination element.
+    </div>
+    <br /><br />
+    <button type="button" onclick="InsertHTML();">click me</button>
+   
+    <!--<select onchange="InsertHTML (this);">　&it
+        <option value="1">value 1</option>
+        <option value="2">value 2</option> 
+        <option value="3">value 3</option>-->
+      <!--  <option selected="selected" value="afterEnd">method 2:The       position is afterEnd</option>-->
+   <!-- </select>-->
+</body>
+</html>
